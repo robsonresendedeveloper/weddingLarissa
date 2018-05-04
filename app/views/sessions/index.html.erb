@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Bem vindo!
+	</title>
+	<link rel="stylesheet" type="text/css" href="/assets/stylesheets/estilos.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<section>
+		<div id="banner">
+			<div id=text-banner>
+				<h2>Robson <br><small>&</small><br> Larissa</h2>	
+			</div>
+		</div>
+		<div id="photos">
+			<h3>Galeria de fotos <hr> </h3>
+			<div class="photo" id=photo1></div>
+			<div class="photo" id=photo2></div>
+			<div class="photo" id=photo3></div>
+			<div class="photo" id=photo4></div>
+			<div class="photo" id=photo5></div>
+			<div class="photo" id=photo6></div>
+			<div class="photo" id=photo7></div>
+			<div class="photo" id=photo8></div>
+			<div class="photo" id=photo9></div>
+			<div class="photo" id=photo10></div>
+			<div class="photo" id=photo11></div>
+		</div>
+		<div id="info-day">
+			<h4>Guarde essa data!<hr></h4>
+		</div>
+		<div class="container" id="infos">
+			<div class="row" id="text">
+				<div class="col-md-4">
+					<h1>Data:</h1>
+					<p>21 de Julho de 2018</p>
+				</div>
+				<div class="col-md-4">
+					<h1>Hora:</h1>
+					<p>15 horas</p>
+				</div>
+				<div class="col-md-4">
+					<h1>Local:</h1>
+					<p>Restaurante toque de minas</p>
+				</div>
+			</div>
+		</div>
+		<div id="confirmation">
+			<h5>Confirme sua presença!<hr></h5>
+			<%= button_to "Confirmar", new_confirmation_path, :class => "btn btn-confirmation", :method => :get %>
+		</div>
+	</section>
+</body>
+</html>
+
+
+

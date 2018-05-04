@@ -1,0 +1,32 @@
+<p id="notice"><%= notice %></p>
+<% if logged_in? %>
+  <h1>Confirmações</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Quantidade de pessoas</th>
+        <th>Telefone</th>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @confirmations.each do |confirmation| %>
+        <tr>
+          <td><%= confirmation.name %></td>
+          <td><%= confirmation.quantity %></td>
+          <td><%= confirmation.telephone %></td>
+          <td><%= link_to 'Mostrar confirmação', confirmation %></td>
+          <td><%= link_to 'Apagar confirmação', confirmation, method: :delete, data: { confirm: 'Tem certeza que deseja apagar?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+<br>
+<% else %>
+  <h1>Essa área é restrita aos noivos!</h1>
+<% end %>
+
+<%= link_to 'Nova confirmação', new_confirmation_path %>

@@ -1,0 +1,15 @@
+<h1>Log in</h1>
+
+<%= form_for :session do |f| %>
+	<p>
+		<%= f.label :username %><br>
+		<%= f.text_field :username %>
+	</p>
+	<p>
+		<%= f.label :password %><br>
+		<%= f.password_field :password %>
+	</p>
+	<p>
+		<%= f.submit %>
+	</p>
+<% end %>

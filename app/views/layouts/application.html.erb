@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WeddingLarissa</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/estilos.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+    <header>
+      <div class="social-bar">
+        <div class="container list-socials-up">
+          <div class="row row-socials">
+            <ul class="list-unstyled list-socials">
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-menu">
+      </div>
+      <div id="menu" class="container">
+          <div class=row>
+            <% if logged_in? %>
+                <nav id="menu-links" class="pull-right">
+                  <ul>
+                    <li><%= link_to 'Início', root_path %></li>
+                    <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+                    <li><%= link_to 'Área dos noivos', login_path %></li>
+                    <li><%= link_to 'Sair', logout_path, method: :delete %></li>
+                  </ul>
+            <% else %>
+                <ul>
+                  <li><%= link_to 'Início', root_path %></li>
+                  <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+                  <li><%= link_to 'Área dos noivos', login_path %></li>
+                </ul>
+              </nav>
+            <% end %>
+          </div> 
+        </div>
+        <% if logged_in? %>
+          <div id="user">
+            <h1> <%= current_user.username %> </h1>
+          </div>
+        <% end %>
+    </header>
+    <div class=messages>
+      <% flash.each do|name, msg| %>
+        <ul>
+          <li><%= msg %></li>
+        </ul>
+      <% end %>
+    </div>
+
+    <%= yield %>
+
+    <footer>
+      <div class="up-footer">
+        <div class="container">
+          <div class="row footer-infos">
+            <div class="col-md-6 logotipo-left">
+            </div>
+            <div class="col-md-6 infos-right">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-4 links">
+                    <h1>Links</h1>
+                    <ul>
+                      <li><%= link_to 'Início', root_path %></li>
+                      <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+                      <li><%= link_to 'Área dos noivos', login_path %></li>
+                    </ul>
+                    
+                  </div>
+                   <div class="col-md-4 personal-infos">
+                    <h2>Contato:</h2>
+                      <ul>
+                        <li>robson.souza.mg@hotmail.com</li>
+                        <li>emaildalarissa@hotmail.com</li>
+                      </ul>
+                      <ul class="list-unstyled list-socials">
+                        <li>
+                          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                          <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+                        </li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="down-footer">
+        <p class="pull-left">Copyright © Robson Resende e Larissa Diniz</p>
+        <p class="pull-right">Desenvolvido por Robson Resende</p>
+      </div>
+    </footer>
+  </body>
+</html>
