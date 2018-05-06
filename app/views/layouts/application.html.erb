@@ -2,12 +2,15 @@
 <html>
   <head>
     <title>WeddingLarissa</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, initial-scale=1">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
     <link rel="stylesheet" type="text/css" href="/assets/stylesheets/estilos.css">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/estilos-mobile.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   </head>
 
@@ -39,6 +42,7 @@
                   <ul>
                     <li><%= link_to 'Início', root_path %></li>
                     <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+                    <li><a href="https://www.querodecasamento.com.br/lista-de-casamento/larissa-diniz-nazareth-robson-de-souza-resende">Lista de presentes</a></li>
                     <li><%= link_to 'Área dos noivos', login_path %></li>
                     <li><%= link_to 'Sair', logout_path, method: :delete %></li>
                   </ul>
@@ -46,6 +50,7 @@
                 <ul>
                   <li><%= link_to 'Início', root_path %></li>
                   <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+                  <li><a href="https://www.querodecasamento.com.br/lista-de-casamento/larissa-diniz-nazareth-robson-de-souza-resende">Lista de presentes</a></li>
                   <li><%= link_to 'Área dos noivos', login_path %></li>
                 </ul>
               </nav>
