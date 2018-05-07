@@ -4,7 +4,118 @@
 }
 /*Tamanho padrão para smartphones*/
 @media only screen and (max-width: 480px) {
+	header .social-bar {
+		height: 40px;
+	}
+	header .list-socials-up {
+		width: 70%;
+		float: left;
+		left: 2%;
+	}
+	header .row-socials {
+		 width: 100%;
+		 position: relative;
+		 float: left;
+	}
+	header .row-socials ul{
+		width: 100%;
+	}
+	header .list-socials li {
+		font-size: 28px;
+		margin-top: 8px;
+	}
 	header .header-menu {
-		height: 100px;
+		height: 250px;
+	}
+	header #menu-links {
+		float: left !important;
+	}
+	header .header-menu ul {
+		position: relative;
+		float: left !important;
+		padding: 0;
+		margin-left: 0;
+	}
+	header .header-menu li {
+		width: 100px;
+		display: list-item !important;
+		list-style-type: none;
+	}
+	header .header-menu a {
+		font-size: 14px;
+	}
+	header #menu {
+		float: left;
+		left: 2%;
+	}
+	#banner {
+		height: 600px;
+		margin-top: -250px;
+		background-size: 300% 1000px;
+		background-position: -300px 0px;
+	}
+	#banner h2 {
+		font-size: 36px;
+	}
+	#banner h2 {
+		left: 20%;
+	}
+	#photos {
+		margin-top: -20px;
+		height: 3750px;
+	}
+	.photo {
+		width: 100% !important;
+		position: relative !important;
+		left: 0 !important;
+		top: 0 !important;
+		display: block;
+	}
+	#photo1 {
+		height:240px;
+		margin-top: 150px;
+	}
+	#photo2 {
+		height:240px;
+		margin-top: -30px;
+	}
+	#photo3 {
+		margin-top: -30px;
+	}
+	#photo5 {
+		margin-top: -190px;
+	}
+	#photo7 {
+		margin-top: -190px;
+	}
+	#photo8 {
+		margin-top: -190px;
+	}
+	#info-day {
+		margin-top: -10px;
+	}
+	#infos {
+		height: 400px;
+	}
+	#confirmation {
+		margin-top: -10px;
+	}
+	.btn-confirmation {
+		width: 80%;
+		height: 200px;
+		background-color: #333A42;
+		position: absolute;
+		top: 350px;
+		left: 10%;
+		border: 2px solid #D7443F;
+		text-align: center;
+		font-size: 36px;
+		font-family: 'Courier';
+		color: #F1ECE9;
+	}
+	footer .down-footer {
+		
 	}
 }
+
+
