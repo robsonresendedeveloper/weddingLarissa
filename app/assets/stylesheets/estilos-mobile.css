@@ -24,6 +24,10 @@
 		font-size: 28px;
 		margin-top: 8px;
 	}
+	header .logotipo {
+		left: 45%;
+		top: 90px;
+	}
 	header .header-menu {
 		height: 250px;
 	}
@@ -51,8 +55,8 @@
 	#banner {
 		height: 600px;
 		margin-top: -250px;
-		background-size: 300% 1000px;
-		background-position: -300px 0px;
+		background-size: 400% 700px;
+		background-position: -500px -0px;
 	}
 	#banner h2 {
 		font-size: 36px;
@@ -104,8 +108,8 @@
 		width: 80%;
 		height: 200px;
 		background-color: #333A42;
-		position: absolute;
-		top: 350px;
+		position: relative;
+		top: 180px;
 		left: 10%;
 		border: 2px solid #D7443F;
 		text-align: center;
@@ -113,8 +117,107 @@
 		font-family: 'Courier';
 		color: #F1ECE9;
 	}
+	footer .up-footer {
+		height: 500px;
+	}
+	footer .infos-right-mobile {
+		width: 50%;
+		height: 230px;
+		position: absolute;
+		z-index: 3;
+	}
+	footer .infos-right-mobile h1{
+		font-family: 'Courier';
+		color: #D7443F;
+		margin-left: 5%;
+	}
+	footer .infos-right-mobile ul{
+		padding: 0;
+	}
+	footer .infos-left-mobile {
+		width: 50%;
+		height: 230px;
+		position: absolute;
+		left: 50%;
+		z-index: 2;
+	}
+	footer .infos-right-mobile li{
+		width: 80%;
+		padding: 0;
+		border: none;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		text-align: center;
+		list-style-type: none;
+	}
+	footer .infos-right-mobile a{
+		color: #F1ECE9;
+		font-family: 'Courier';
+	}
+	footer .infos-left-mobile h2 {
+		font-family: 'Courier';
+		color: #D7443F;
+		margin-left: 5%;
+	}
+	footer .infos-left-mobile ul{
+		padding: 0;
+	}
+	footer .infos-left-mobile li{
+		width: 80%;
+		padding: 0;
+		border: none;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		text-align: center;
+		list-style-type: none;
+		color: #F1ECE9;
+		font-family: 'Courier';
+	}
+	footer .list-socials-mobile {
+		width: 80%;
+		height: 50px;
+		position: absolute;
+		left: 10%;
+		top: 220px;
+		z-index: 2;
+	}
+	footer .links-socials-mobile {
+		margin-top: 0;
+	}
+	footer .links-socials-mobile li{
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+	}
+	footer .logotipo-rodape {
+		display: none;
+	}
+	footer .links {
+		display: none;
+	}
+	footer .personal-infos {
+		display: none;
+	}
 	footer .down-footer {
-		
+		margin-top: -220px;
+		height: 100px;
+	}
+	footer .down-footer p{
+		font-size: 9px;
+	}
+	footer .pull-right {
+		float: left !important;
+		padding: 0 !important;
+		margin-top: -10px !important;
+	}
+	footer .logo-rodape-mobile {
+		width: 20%;
+		height: 45px;
+		position: absolute;
+		float: right;
+		right: 5%;
+		background: url("logo2.png") no-repeat;
+		background-size: 100% 100%;
 	}
 }
 

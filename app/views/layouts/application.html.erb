@@ -33,6 +33,8 @@
           </div>
         </div>
       </div>
+      <div class="logotipo">
+      </div>
       <div class="header-menu">
       <div id="menu" class="container">
           <div class=row>
@@ -74,10 +76,40 @@
     <%= yield %>
 
    <footer>
+     <div class="infos-right-mobile visible-xs">
+      <h1>Links</h1>
+      <ul>
+        <li><%= link_to 'Início', root_path %></li>
+        <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+        <li><%= link_to 'Área dos noivos', login_path %></li>
+      </ul>
+     </div>
+     <div class="infos-left-mobile visible-xs">
+      <h2>Contato:</h2>
+      <ul>
+        <li>robson.souza.mg@ hotmail.com</li>
+        <li>emaildalarissa@ hotmail.com</li>
+      </ul>
+     </div>
+     <div class="list-socials-mobile visible-xs">
+      <ul class="list-unstyled list-socials links-socials-mobile">
+        <li>
+          <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li>
+          <a href="#" target="_blank"><i class="fa fa-twitter"></i></a>
+        </li>
+         <li>
+          <a href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+         </li>
+      </ul>
+     </div>
+
       <div class="up-footer">
         <div class="container">
           <div class="row footer-infos">
             <div class="col-md-6 logotipo-left">
+              <div class="logotipo-rodape"></div>
             </div>
             <div class="col-md-6 infos-right">
               <div class="container">
@@ -93,7 +125,7 @@
                   </div>
                    <div class="col-md-4 personal-infos">
                     <h2>Contato:</h2>
-                      <ul>
+                     <ul>
                         <li>robson.souza.mg@hotmail.com</li>
                         <li>emaildalarissa@hotmail.com</li>
                       </ul>
@@ -119,6 +151,7 @@
       <div class="down-footer">
         <p class="pull-left">Copyright © Robson Resende e Larissa Diniz</p>
         <p class="pull-right">Desenvolvido por Robson Resende</p>
+        <div class="logo-rodape-mobile"></div>
       </div>
     </footer>
   </body>
