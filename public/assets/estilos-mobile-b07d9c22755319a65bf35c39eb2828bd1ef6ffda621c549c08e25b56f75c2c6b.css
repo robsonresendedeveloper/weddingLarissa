@@ -1,0 +1,225 @@
+/*Tamanho padrão para tablets*/
+
+@media only screen and (max-width: 768px) {
+
+}
+/*Tamanho padrão para smartphones*/
+@media only screen and (max-width: 480px) {
+	header .social-bar {
+		height: 40px;
+	}
+	header .list-socials-up {
+		width: 70%;
+		float: left;
+		left: 2%;
+	}
+	header .row-socials {
+		 width: 100%;
+		 position: relative;
+		 float: left;
+	}
+	header .row-socials ul{
+		width: 100%;
+	}
+	header .list-socials li {
+		font-size: 28px;
+		margin-top: 8px;
+	}
+	header .logotipo {
+		left: 45%;
+		top: 90px;
+	}
+	header .header-menu {
+		height: 250px;
+	}
+	header #menu-links {
+		float: left !important;
+	}
+	header .header-menu ul {
+		position: relative;
+		float: left !important;
+		padding: 0;
+		margin-left: 0;
+	}
+	header .header-menu li {
+		width: 100px;
+		display: list-item !important;
+		list-style-type: none;
+	}
+	header .header-menu a {
+		font-size: 14px;
+	}
+	header #menu {
+		float: left;
+		left: 2%;
+	}
+	#banner {
+		height: 600px;
+		margin-top: -250px;
+		background-size: 400% 700px;
+		background-position: -500px -0px;
+	}
+	#banner h2 {
+		font-size: 36px;
+	}
+	#banner h2 {
+		left: 20%;
+	}
+	#photos {
+		margin-top: -20px;
+		height: 3750px;
+	}
+	.photo {
+		width: 100% !important;
+		position: relative !important;
+		left: 0 !important;
+		top: 0 !important;
+		display: block;
+	}
+	#photo1 {
+		height:240px;
+		margin-top: 150px;
+	}
+	#photo2 {
+		height:240px;
+		margin-top: -30px;
+	}
+	#photo3 {
+		margin-top: -30px;
+	}
+	#photo5 {
+		margin-top: -190px;
+	}
+	#photo7 {
+		margin-top: -190px;
+	}
+	#photo8 {
+		margin-top: -190px;
+	}
+	#info-day {
+		margin-top: -10px;
+	}
+	#infos {
+		height: 400px;
+	}
+	#confirmation {
+		margin-top: -10px;
+	}
+	.btn-confirmation {
+		width: 80%;
+		height: 200px;
+		background-color: #333A42;
+		position: relative;
+		top: 180px;
+		left: 10%;
+		border: 2px solid #D7443F;
+		text-align: center;
+		font-size: 36px;
+		font-family: 'Courier';
+		color: #F1ECE9;
+	}
+	footer .up-footer {
+		height: 500px;
+	}
+	footer .infos-right-mobile {
+		width: 50%;
+		height: 230px;
+		position: absolute;
+		z-index: 3;
+	}
+	footer .infos-right-mobile h1{
+		font-family: 'Courier';
+		color: #D7443F;
+		margin-left: 5%;
+	}
+	footer .infos-right-mobile ul{
+		padding: 0;
+	}
+	footer .infos-left-mobile {
+		width: 50%;
+		height: 230px;
+		position: absolute;
+		left: 50%;
+		z-index: 2;
+	}
+	footer .infos-right-mobile li{
+		width: 80%;
+		padding: 0;
+		border: none;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		text-align: center;
+		list-style-type: none;
+	}
+	footer .infos-right-mobile a{
+		color: #F1ECE9;
+		font-family: 'Courier';
+	}
+	footer .infos-left-mobile h2 {
+		font-family: 'Courier';
+		color: #D7443F;
+		margin-left: 5%;
+	}
+	footer .infos-left-mobile ul{
+		padding: 0;
+	}
+	footer .infos-left-mobile li{
+		width: 80%;
+		padding: 0;
+		border: none;
+		margin-left: 10%;
+		margin-bottom: 10px;
+		text-align: center;
+		list-style-type: none;
+		color: #F1ECE9;
+		font-family: 'Courier';
+	}
+	footer .list-socials-mobile {
+		width: 80%;
+		height: 50px;
+		position: absolute;
+		left: 10%;
+		top: 220px;
+		z-index: 2;
+	}
+	footer .links-socials-mobile {
+		margin-top: 0;
+	}
+	footer .links-socials-mobile li{
+		width: 40px;
+		height: 40px;
+		margin-left: 10px;
+	}
+	footer .logotipo-rodape {
+		display: none;
+	}
+	footer .links {
+		display: none;
+	}
+	footer .personal-infos {
+		display: none;
+	}
+	footer .down-footer {
+		margin-top: -220px;
+		height: 100px;
+	}
+	footer .down-footer p{
+		font-size: 9px;
+	}
+	footer .pull-right {
+		float: left !important;
+		padding: 0 !important;
+		margin-top: -10px !important;
+	}
+	footer .logo-rodape-mobile {
+		width: 20%;
+		height: 45px;
+		position: absolute;
+		float: right;
+		right: 5%;
+		background: url("logo2.png") no-repeat;
+		background-size: 100% 100%;
+	}
+}
+
+
