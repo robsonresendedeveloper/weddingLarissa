@@ -118,7 +118,7 @@
 		color: #F1ECE9;
 	}
 	footer .up-footer {
-		height: 500px;
+		height: 300px;
 	}
 	footer .infos-right-mobile {
 		width: 50%;
@@ -177,17 +177,19 @@
 		width: 80%;
 		height: 50px;
 		position: absolute;
-		left: 10%;
+		left: 25%;
 		top: 220px;
 		z-index: 2;
 	}
 	footer .links-socials-mobile {
-		margin-top: 0;
+		width: 70%;
+		margin: 0;
 	}
 	footer .links-socials-mobile li{
 		width: 40px;
 		height: 40px;
 		margin-left: 10px;
+		margin-right: 0;
 	}
 	footer .logotipo-rodape {
 		display: none;
@@ -199,23 +201,29 @@
 		display: none;
 	}
 	footer .down-footer {
-		margin-top: -220px;
-		height: 100px;
+		height: 50px;
+	}
+	footer .infos-right {
+		height: 0px;
 	}
 	footer .down-footer p{
 		font-size: 9px;
+		margin-bottom: 0;
 	}
 	footer .pull-right {
 		float: left !important;
 		padding: 0 !important;
 		margin-top: -10px !important;
 	}
+	footer .developer {
+		margin-top: 5px !important;
+	}
 	footer .logo-rodape-mobile {
 		width: 20%;
 		height: 45px;
 		position: absolute;
 		float: right;
-		right: 5%;
+		right: 3%;
 		background: url("logo2.png") no-repeat;
 		background-size: 100% 100%;
 	}
