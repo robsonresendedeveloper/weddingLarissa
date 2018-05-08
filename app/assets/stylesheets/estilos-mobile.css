@@ -25,8 +25,9 @@
 		margin-top: 8px;
 	}
 	header .logotipo {
-		left: 45%;
-		top: 90px;
+		width: 40%;
+		left: 55%;
+		top: 110px;
 	}
 	header .header-menu {
 		height: 250px;
@@ -174,19 +175,19 @@
 		font-family: 'Courier';
 	}
 	footer .list-socials-mobile {
-		width: 80%;
+		width: 70%;
 		height: 50px;
 		position: absolute;
-		left: 25%;
+		left: 15%;
 		top: 220px;
 		z-index: 2;
 	}
 	footer .links-socials-mobile {
-		width: 70%;
 		margin: 0;
+		padding: 0;
 	}
 	footer .links-socials-mobile li{
-		width: 40px;
+		width: 18%;
 		height: 40px;
 		margin-left: 10px;
 		margin-right: 0;
@@ -226,6 +227,40 @@
 		right: 3%;
 		background: url("logo2.png") no-repeat;
 		background-size: 100% 100%;
+	}
+
+
+	.form-user {
+		height: 900px;
+	}
+	.form-user h1{
+		font-size: 24px;
+	}
+	.form-user label {
+		font-size: 14px;
+	}
+	.form-for input[type=submit] {
+		margin-top: 50px;
+		font-size: 14px;
+	}
+	.link-form {
+		top: 750px;
+	}
+	.form-login {
+		height: 700px;
+	}
+	.infos-confirmation p{
+		font-size: 24px;
+	}
+	.links-confirmation {
+		width: 60%;
+		left: 30%;
+	}
+	.links-confirmation a{
+		text-align: center;
+	}
+	.form-show-confirmation {
+		height: 650px;
 	}
 }
 

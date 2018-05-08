@@ -1,15 +1,25 @@
-<h1>Log in</h1>
+<%= stylesheet_link_tag "estilos-mobile.css" %>
 
-<%= form_for :session do |f| %>
-	<p>
-		<%= f.label :username %><br>
-		<%= f.text_field :username %>
-	</p>
-	<p>
-		<%= f.label :password %><br>
-		<%= f.password_field :password %>
-	</p>
-	<p>
-		<%= f.submit %>
-	</p>
-<% end %>
+<section>
+	<div class="form-user form-login">
+		<div class="form-new">
+
+			<h1>Log in <hr></h1>
+			<div class="form-for">
+				<%= form_for :session do |f| %>
+					<p>
+						<%= f.label :username %><br>
+						<%= f.text_field :username %>
+					</p>
+					<p>
+						<%= f.label :password %><br>
+						<%= f.password_field :password %>
+					</p>
+					<p>
+						<%= f.submit "Entrar" %>
+					</p>
+				<% end %>
+			</div>
+		</div>
+	</div>
+</section>

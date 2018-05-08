@@ -1,5 +1,16 @@
-<h1>Confirme sua Presença</h1>
+<%= stylesheet_link_tag "estilos-mobile.css" %>
 
-<%= render 'form', confirmation: @confirmation %>
+<section>
+	<div class="form-user">
+		<div class="form-new">
+			<h1>Confirme sua Presença<hr></h1>
 
-<%= link_to 'Voltar', root_path %>
+			<%= render 'form', confirmation: @confirmation %>		
+		</div>
+		<div class="link-form">
+			<%= link_to 'Voltar', root_path %>
+		</div>
+		
+	</div>
+	
+</section>

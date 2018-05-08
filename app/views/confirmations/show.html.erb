@@ -1,19 +1,24 @@
+<%= stylesheet_link_tag "estilos-mobile.css" %>
+
 <p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Nome:</strong>
-  <%= @confirmation.name %>
-</p>
-
-<p>
-  <strong>Quabtidade de pessoas:</strong>
-  <%= @confirmation.quantity %>
-</p>
-
-<p>
-  <strong>Telefone:</strong>
-  <%= @confirmation.telephone %>
-</p>
-
-<%= link_to 'Editar', edit_confirmation_path(@confirmation) %> |
-<%= link_to 'Voltar', confirmations_path %>
+<div class="form-user form-show-confirmation">
+	<div class="infos-confirmation">
+	  <p>
+	  <strong>Nome:</strong>
+	  <%= @confirmation.name %>
+	  </p>
+	  <p>
+	    <strong>Quabtidade de pessoas:</strong>
+	  <%= @confirmation.quantity %>
+		</p>
+		<p>
+	  	<strong>Telefone:</strong>
+	  <%= @confirmation.telephone %>
+		</p>
+		<div class="links-confirmation">
+			<%= link_to 'Voltar', root_path %>
+		</div>
+		
+	</div>
+</div>
