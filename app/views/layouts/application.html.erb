@@ -45,7 +45,7 @@
                     <li><%= link_to 'Início', root_path %></li>
                     <li><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
                     <li><a href="https://www.querodecasamento.com.br/lista-de-casamento/larissa-diniz-nazareth-robson-de-souza-resende">Lista de presentes</a></li>
-                    <li><%= link_to 'Área dos noivos', login_path %></li>
+                    <li><%= link_to 'Área dos noivos', confirmations_path %></li>
                     <li><%= link_to 'Sair', logout_path, method: :delete %></li>
                   </ul>
             <% else %>
@@ -111,7 +111,7 @@
      </div>
 
       <div class="up-footer">
-        <div class="container">
+        <div class="container container-right">
           <div class="row footer-infos">
             <div class="col-md-6 logotipo-left">
               <div class="logotipo-rodape"></div>

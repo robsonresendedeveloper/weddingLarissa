@@ -1,458 +1,458 @@
- @font-face {
-	font-family: 'OpenSans';
-	src: url("fonts/Open_Sans/OpenSans-Regular.ttf");
-	font-size: 1em;
-}
-@font-face {
-	font-family: 'OpenSans-Light';
-	src: url("fonts/Open_Sans/OpenSans-Light.ttf");
-	font-size: 1em;
-}
-body {
-	margin: 0 !important;
-	padding: 0 !important;
-	background-color: #F1ECE9;
-}
-header .social-bar{
-	width: 100%;
-	height: 30px;
-	background-color: #485058;
-}
-header .list-socials-up {
-	float:  left;
-	position: absolute;
-	width: 55%;
-	left: 45%;
-}
-header .list-socials-up ul{
-	margin: none;
-}
-header .list-socials-up li {
-	display: inline-block;
-	margin-left: 20px;
-	margin-top: 2px;
-	font-size: 26px;
-}
-header .list-socials-up li a {
-	color: #D7443F;
-}
-header .list-socials-up li a:hover {
-	background: none;
-	text-decoration: none;
-	opacity: .5;
-	transition: .5s;
-}
-header .list-socials {
-	width: 30%;
-}
-header .header-menu {
-	width: 100%;
-	height: 100px;
-	background-color: #A6A5A1;
-	margin: 0;
-	opacity: .9;
-}
-header .logotipo {
-	width: 180px;
-	height: 180px;
-	position: absolute;
-	float: left;
-	top: 15px;
-	left: 3%;
-	background: url("logo1.png") no-repeat;
-	background-size: 100%;
-	z-index: 2;
-}
-header #menu {
-	width: 85%;
-	float: right;
-	right: 20px;
-	position: absolute;
-	top: 55px;
-}
-header #menu-links {
-	width: 100%;
-}
-header #menu ul {
-	float: right;
-}
-header #menu li {
-	text-decoration: none;
-	display: block;
-	display: inline-block;
-	font-size: 24px;
-	margin: 10px;
-}
-header #menu li a{
-	color: #333A42;
-	font-family: "Courier";
-}
-header #menu li a:hover {
-	text-decoration: none;
-	background: none;
-	opacity: .5;
-	transition: .5s;
-}
-header #user {
-	width: 20%;
-	float: left;
-	position: absolute;
-	left: 80%;
-	top: 80px;
-}
-header #user h1 {
-	font-size: 14px;
-	color: #fff;
-	position: relative;
-	left: 100px;
-}
-.messages {
-	width: 100%;
-	background-color: #F16D31;
-	color: #E6F2F2;
-	text-align: center;
-	position: absolute;
-}
-.messages li {
-	list-style-type: none;
-}
-#banner {
-	width: 100%;
-	height:700px;
-	position: relative;
-	background: url("banner.jpg") no-repeat;
-	background-size: 100%;
-	margin-top: -160px;
-	z-index: -1;
-}
-#banner h2 {
-	position: absolute;
-	top: 200px;
-	color: #F1ECE9;
-	left: 10px;
-	font-family: "Courier";
-	font-size: 86px;
-	text-shadow: 8px 8px 8px rgba(0, 0, 0, .45);
-}
+	 @font-face {
+		font-family: 'OpenSans';
+		src: url("fonts/Open_Sans/OpenSans-Regular.ttf");
+		font-size: 1em;
+	}
+	@font-face {
+		font-family: 'OpenSans-Light';
+		src: url("fonts/Open_Sans/OpenSans-Light.ttf");
+		font-size: 1em;
+	}
+	body {
+		margin: 0 !important;
+		padding: 0 !important;
+		background-color: #F1ECE9;
+	}
+	header .social-bar{
+		width: 100%;
+		height: 30px;
+		background-color: #485058;
+	}
+	header .list-socials-up {
+		float:  left;
+		position: absolute;
+		width: 55%;
+		left: 45%;
+	}
+	header .list-socials-up ul{
+		margin: none;
+	}
+	header .list-socials-up li {
+		display: inline-block;
+		margin-left: 20px;
+		margin-top: 2px;
+		font-size: 26px;
+	}
+	header .list-socials-up li a {
+		color: #D7443F;
+	}
+	header .list-socials-up li a:hover {
+		background: none;
+		text-decoration: none;
+		opacity: .5;
+		transition: .5s;
+	}
+	header .list-socials {
+		width: 30%;
+	}
+	header .header-menu {
+		width: 100%;
+		height: 100px;
+		background-color: #A6A5A1;
+		margin: 0;
+		opacity: .9;
+	}
+	header .logotipo {
+		width: 180px;
+		height: 180px;
+		position: absolute;
+		float: left;
+		top: 15px;
+		left: 3%;
+		background: url("logo1.png") no-repeat;
+		background-size: 100%;
+		z-index: 2;
+	}
+	header #menu {
+		width: 85%;
+		float: right;
+		right: 20px;
+		position: absolute;
+		top: 55px;
+	}
+	header #menu-links {
+		width: 100%;
+	}
+	header #menu ul {
+		float: right;
+	}
+	header #menu li {
+		text-decoration: none;
+		display: block;
+		display: inline-block;
+		font-size: 24px;
+		margin: 10px;
+	}
+	header #menu li a{
+		color: #333A42;
+		font-family: "Courier";
+	}
+	header #menu li a:hover {
+		text-decoration: none;
+		background: none;
+		opacity: .5;
+		transition: .5s;
+	}
+	header #user {
+		width: 20%;
+		float: left;
+		position: absolute;
+		left: 80%;
+		top: 80px;
+	}
+	header #user h1 {
+		font-size: 14px;
+		color: #fff;
+		position: relative;
+		left: 100px;
+	}
+	.messages {
+		width: 100%;
+		background-color: #F16D31;
+		color: #E6F2F2;
+		text-align: center;
+		position: absolute;
+	}
+	.messages li {
+		list-style-type: none;
+	}
+	#banner {
+		width: 100%;
+		height:700px;
+		position: relative;
+		background: url("banner.jpg") no-repeat;
+		background-size: 100%;
+		margin-top: -160px;
+		z-index: -1;
+	}
+	#banner h2 {
+		position: absolute;
+		top: 200px;
+		color: #F1ECE9;
+		left: 10px;
+		font-family: "Courier";
+		font-size: 86px;
+		text-shadow: 8px 8px 8px rgba(0, 0, 0, .45);
+	}
 
-#banner small {
-	color: #F1ECE9;
-	left: 30px;
-}
-#text-banner {
-	width: 30%;
-	float: left;
-	position: absolute;
-	left: 5%;
-	top: 40px;
-	text-align: center;
-}
-#photos {
-	width: 100%;
-	height: 1810px;
-	background-color: #F1ECE9;
-	margin-top: -20px;
-	position: relative;
-}
-#photos h3 {
-	text-align: center;
-	font-size: 48px;
-	font-family: 'Courier';
-	position: relative;
-	top: 80px;
-	color: #333A42;
-}
-#photos hr {
-	width: 30%;
-	border: 2px solid #D7443F;
-}
-.photo {
-	position: relative;
-}
-.photo:hover {
-	opacity: .5;
-	transition: .5s;
-	cursor: pointer;
-}
-#photo1 {
-	width: 50%;
-	height: 400px;
-	background: url("1.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	top: 200px;
-}
-#photo2 {
-	width: 50%;
-	height: 400px;
-	background: url("2.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	top: 200px;
-	left: 50%;
-}
-#photo3 {
-	width: 25%;
-	height: 400px;
-	background: url("3.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	top: 600px;
-}
-#photo4 {
-	width: 50%;
-	height: 400px;
-	background: url("4.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 25%;
-	top: 600px;
-}
-#photo5 {
-	width: 25%;
-	height: 400px;
-	background: url("5.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 75%;
-	top: 600px;
-}
-#photo6 {
-	width: 50%;
-	height: 400px;
-	background: url("6.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	top: 1000px;
-}
-#photo7 {
-	width: 50%;
-	height: 400px;
-	background: url("7.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 50%;
-	top: 1000px;
-	
-}
-#photo8 {
-	width: 25%;
-	height: 400px;
-	background: url("8.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	top: 1400px;
-}
-#photo9 {
-	width: 25%;
-	height: 400px;
-	background: url("9.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 25%;
-	top: 1400px;
-}
-#photo10 {
-	width: 25%;
-	height: 400px;
-	background: url("10.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 50%;
-	top: 1400px;	
-}
-#photo11 {
-	width: 25%;
-	height: 400px;
-	background: url("11.jpg") no-repeat;
-	background-size: 100%;
-	position: absolute;
-	left: 75%;
-	top: 1400px;
-}
-#info-day {
-	width: 100%;
-	height: 300px;
-	background-color: #F1ECE9;
-	margin-top: -20px;
-	position: relative;
-}
-#info-day h4 {
-	text-align: center;
-	font-size: 48px;
-	font-family: 'Courier';
-	position: relative;
-	top: 80px;
-	color: #333A42;
-}
-#info-day hr {
-	width: 30%;
-	border: 2px solid #D7443F;
-}
-#infos {
-	width: 100%;
-	height: 200px;
-	position: relative;
-	background-color: #D7443F;
-}
-#text {
-	position: relative;
-	top: 50px;
-}
-#infos h1 {
-	font-family: 'Courier';
-	font-size: 36px;
-	color: #485058;
-	text-align: center;
-}
-#infos p {
-	font-family: 'Courier';
-	font-size: 24px;
-	color: #F1ECE9;
-	text-align: center;
-}
-#confirmation {
-	width: 100%;
-	height: 700px;
-	background-color: #F1ECE9;]
-	position: relative;
-	margin-top: -50px;
-}
-#confirmation h5 {
-	text-align: center;
-	font-size: 48px;
-	font-family: 'Courier';
-	position: relative;
-	top: 80px;
-	color: #333A42;
-}
-#confirmation hr {
-	width: 30%;
-	border: 2px solid #D7443F;
-}
-.btn-confirmation {
-	width: 40%;
-	height: 200px;
-	background-color: #333A42;
-	position: relative;
-	top: 200px;
-	left: 30%;
-	border: 2px solid #D7443F;
-	text-align: center;
-	font-size: 48px;
-	font-family: 'Courier';
-	color: #F1ECE9;
-}
-.btn-confirmation:hover {
-	background-color: #485058;
-	transition: .5s;
-}
-footer {
-	position: relative;
-	clear: both;
-}
-footer .up-footer {
-	width: 100%;
-	height: 200px;
-	position: relative;
-	clear: both;
-	display: block;
-	background-color: #485058;
-}
-footer .logotipo-left {
-	width: 30%;
-	height: 200px;
-}
-footer .logotipo-rodape {
-	width: 180px;
-	height: 180px;
-	position: relative;
-	float: left;
-	background: url("logo2.png") no-repeat;
-	margin-top: 30px;
-	background-size: 100%;
-}
-footer .infos-right {
-	width: 70%;
-	height: 200px;
-}
-footer .links {
-	height: 200px;
-}
-footer .links h1{
-	color: #D7443F;
-	font-size: 34px;
-	font-family: 'Courier';
-}
-footer .links li {
-	list-style-type: none;
-	margin: 10px;
-}
-footer .links li a{
-	color: #F1ECE9;
-	font-size: 18px;
-	font-family: 'Courier';
-	text-decoration: none;
-}
-footer .links li a:hover{
-	background-color: none;
-	background: none;
-	opacity: .5;
-	transition: .5s;
-}
-footer .personal-infos {
-	height: 200px;
-}
-footer .personal-infos h2{
-	color: #D7443F;
-	font-size: 34px;
-	font-family: 'Courier';
-}
-footer .personal-infos li {
-	list-style-type: none;
-	margin: 4px;
-	color: #F1ECE9;
-	font-size: 18px;
-	font-family: 'Courier';
-	text-decoration: none;
-}
-footer .list-socials {
-	margin-top: 12px;
-	margin-left: 25%;
-}
-footer .list-socials li {
-	display: inline-block;
-	margin-right: 8px;
-}
-footer .list-socials a {
-	display: block;
-	border: #9B9B9B 1px solid;
-	width: 50px;
-	height: 50px;
-	line-height: 50px;
-	border-radius: 50%;
-	text-align: center;
-}
-footer .list-socials a:hover {
-	background: none;
-	opacity: .5;
-	transition: .5s;
-}
-footer .list-socials i {
-	font-size: 24px;
-	margin: 7px auto;
-	color: #F1ECE9;
-}
-footer .down-footer {
-	width: 100%;
-	height: 45px;
-	position: absolute;
-	clear: both;
-	display: block;
-	background-color: #333A42;
-}
-footer .down-footer p {
-	margin: 10px;
-	color: #A6A5A1;
-	font-family: 'Courier';
-}
+	#banner small {
+		color: #F1ECE9;
+		left: 30px;
+	}
+	#text-banner {
+		width: 30%;
+		float: left;
+		position: absolute;
+		left: 5%;
+		top: 40px;
+		text-align: center;
+	}
+	#photos {
+		width: 100%;
+		height: 1810px;
+		background-color: #F1ECE9;
+		margin-top: -20px;
+		position: relative;
+	}
+	#photos h3 {
+		text-align: center;
+		font-size: 48px;
+		font-family: 'Courier';
+		position: relative;
+		top: 80px;
+		color: #333A42;
+	}
+	#photos hr {
+		width: 30%;
+		border: 2px solid #D7443F;
+	}
+	.photo {
+		position: relative;
+	}
+	.photo:hover {
+		opacity: .5;
+		transition: .5s;
+		cursor: pointer;
+	}
+	#photo1 {
+		width: 50%;
+		height: 400px;
+		background: url("1.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 200px;
+	}
+	#photo2 {
+		width: 50%;
+		height: 400px;
+		background: url("2.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 200px;
+		left: 50%;
+	}
+	#photo3 {
+		width: 25%;
+		height: 400px;
+		background: url("3.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 600px;
+	}
+	#photo4 {
+		width: 50%;
+		height: 400px;
+		background: url("4.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 25%;
+		top: 600px;
+	}
+	#photo5 {
+		width: 25%;
+		height: 400px;
+		background: url("5.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 75%;
+		top: 600px;
+	}
+	#photo6 {
+		width: 50%;
+		height: 400px;
+		background: url("6.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 1000px;
+	}
+	#photo7 {
+		width: 50%;
+		height: 400px;
+		background: url("7.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 50%;
+		top: 1000px;
+		
+	}
+	#photo8 {
+		width: 25%;
+		height: 400px;
+		background: url("8.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		top: 1400px;
+	}
+	#photo9 {
+		width: 25%;
+		height: 400px;
+		background: url("9.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 25%;
+		top: 1400px;
+	}
+	#photo10 {
+		width: 25%;
+		height: 400px;
+		background: url("10.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 50%;
+		top: 1400px;	
+	}
+	#photo11 {
+		width: 25%;
+		height: 400px;
+		background: url("11.jpg") no-repeat;
+		background-size: 100%;
+		position: absolute;
+		left: 75%;
+		top: 1400px;
+	}
+	#info-day {
+		width: 100%;
+		height: 300px;
+		background-color: #F1ECE9;
+		margin-top: -20px;
+		position: relative;
+	}
+	#info-day h4 {
+		text-align: center;
+		font-size: 48px;
+		font-family: 'Courier';
+		position: relative;
+		top: 80px;
+		color: #333A42;
+	}
+	#info-day hr {
+		width: 30%;
+		border: 2px solid #D7443F;
+	}
+	#infos {
+		width: 100%;
+		height: 200px;
+		position: relative;
+		background-color: #D7443F;
+	}
+	#text {
+		position: relative;
+		top: 50px;
+	}
+	#infos h1 {
+		font-family: 'Courier';
+		font-size: 36px;
+		color: #485058;
+		text-align: center;
+	}
+	#infos p {
+		font-family: 'Courier';
+		font-size: 24px;
+		color: #F1ECE9;
+		text-align: center;
+	}
+	#confirmation {
+		width: 100%;
+		height: 700px;
+		background-color: #F1ECE9;]
+		position: relative;
+		margin-top: -50px;
+	}
+	#confirmation h5 {
+		text-align: center;
+		font-size: 48px;
+		font-family: 'Courier';
+		position: relative;
+		top: 80px;
+		color: #333A42;
+	}
+	#confirmation hr {
+		width: 30%;
+		border: 2px solid #D7443F;
+	}
+	.btn-confirmation {
+		width: 40%;
+		height: 200px;
+		background-color: #333A42;
+		position: relative;
+		top: 200px;
+		left: 30%;
+		border: 2px solid #D7443F;
+		text-align: center;
+		font-size: 48px;
+		font-family: 'Courier';
+		color: #F1ECE9;
+	}
+	.btn-confirmation:hover {
+		background-color: #485058;
+		transition: .5s;
+	}
+	footer {
+		position: relative;
+		clear: both;
+	}
+	footer .up-footer {
+		width: 100%;
+		height: 200px;
+		position: relative;
+		clear: both;
+		display: block;
+		background-color: #485058;
+	}
+	footer .logotipo-left {
+		width: 30%;
+		height: 200px;
+	}
+	footer .logotipo-rodape {
+		width: 180px;
+		height: 180px;
+		position: relative;
+		float: left;
+		background: url("logo2.png") no-repeat;
+		margin-top: 30px;
+		background-size: 100%;
+	}
+	footer .infos-right {
+		width: 70%;
+		height: 200px;
+	}
+	footer .links {
+		height: 200px;
+	}
+	footer .links h1{
+		color: #D7443F;
+		font-size: 34px;
+		font-family: 'Courier';
+	}
+	footer .links li {
+		list-style-type: none;
+		margin: 10px;
+	}
+	footer .links li a{
+		color: #F1ECE9;
+		font-size: 18px;
+		font-family: 'Courier';
+		text-decoration: none;
+	}
+	footer .links li a:hover{
+		background-color: none;
+		background: none;
+		opacity: .5;
+		transition: .5s;
+	}
+	footer .personal-infos {
+		height: 200px;
+	}
+	footer .personal-infos h2{
+		color: #D7443F;
+		font-size: 34px;
+		font-family: 'Courier';
+	}
+	footer .personal-infos li {
+		list-style-type: none;
+		margin: 4px;
+		color: #F1ECE9;
+		font-size: 18px;
+		font-family: 'Courier';
+		text-decoration: none;
+	}
+	footer .list-socials {
+		margin-top: 12px;
+		margin-left: 25%;
+	}
+	footer .list-socials li {
+		display: inline-block;
+		margin-right: 8px;
+	}
+	footer .list-socials a {
+		display: block;
+		border: #9B9B9B 1px solid;
+		width: 50px;
+		height: 50px;
+		line-height: 50px;
+		border-radius: 50%;
+		text-align: center;
+	}
+	footer .list-socials a:hover {
+		background: none;
+		opacity: .5;
+		transition: .5s;
+	}
+	footer .list-socials i {
+		font-size: 24px;
+		margin: 7px auto;
+		color: #F1ECE9;
+	}
+	footer .down-footer {
+		width: 100%;
+		height: 45px;
+		position: absolute;
+		clear: both;
+		display: block;
+		background-color: #333A42;
+	}
+	footer .down-footer p {
+		margin: 10px;
+		color: #A6A5A1;
+		font-family: 'Courier';
+	}
