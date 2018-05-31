@@ -304,7 +304,6 @@
 		width: 80%;
 		height: 500px;
 		position: fixed;
-		margin-top: 40px;
 		left: -100%;
 		z-index: 6;
 		transition: 1s;
