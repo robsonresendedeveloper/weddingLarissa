@@ -17,6 +17,31 @@
   <body>
     <a name="index"></a>
     <header>
+      <div id="menu-mobile-mask" class="visible-xs"></div>
+      <div id="menu-mobile" class="visible-xs">
+        <div class="visible-xs" id="logo-menu-mobile"></div>
+        <div class="visible-xs" id=buttons-mobile>
+          <% if logged_in? %>
+            <ul id="buttons-mobile">
+              <li class="link-mobile"><%= link_to 'Início', root_path %></li>
+              <li class="link-mobile"><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+              <li class="link-mobile"><a href="https://www.querodecasamento.com.br/lista-de-casamento/larissa-diniz-nazareth-robson-de-souza-resende">Lista de presentes</a></li>
+              <li class="link-mobile"><%= link_to 'Área dos noivos', confirmations_path %></li>
+              <li class="link-mobile"><%= link_to 'Sair', logout_path, method: :delete %></li>
+            </ul>
+          <% else %>
+            <ul id="buttons-mobile">
+              <li class="link-mobile"><%= link_to 'Início', root_path %></li>
+              <li class="link-mobile"><%= link_to 'Confirmar Presença', new_confirmation_path %></li>
+              <li class="link-mobile"><a href="https://www.querodecasamento.com.br/lista-de-casamento/larissa-diniz-nazareth-robson-de-souza-resende">Lista de presentes</a></li>
+              <li class="link-mobile"><%= link_to 'Área dos noivos', login_path %></li>
+              </ul>
+          <% end %>
+        </div>
+      </div>
+          
+        </div>
+      </div>
       <div class="social-bar">
         <div class="container list-socials-up">
           <div class="row row-socials">
@@ -37,7 +62,8 @@
       <div class="logotipo">
       </div>
       <div class="header-menu">
-      <div id="menu" class="container">
+        <a id="link-do-mal" class="visible-xs"><i id="button-mobile" class="fa fa-bars"></i></a>
+        <div id="menu" class="container">
           <div class=row>
             <% if logged_in? %>
                 <nav id="menu-links" class="pull-right">
@@ -160,5 +186,6 @@
         <div class="logo-rodape-mobile"></div>
       </div>
     </footer>
+    <%= javascript_include_tag 'effects.js' %>
   </body>
 </html>
